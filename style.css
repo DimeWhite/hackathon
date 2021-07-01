@@ -1,0 +1,238 @@
+.loader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.loader p{
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-size: 288px;
+}
+.arrow-ellipse{
+    width: 215px;
+    height: 215px;
+    background: #FFB700;
+    border-radius: 50%;
+    position: relative;
+}
+.arrow-ellipse .ellipse{
+    position: absolute;
+    margin-top: 33px;
+}
+.arrow-ellipse #arrow{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 82px;
+}
+.big-ellipse{
+    width: 513px;
+    height: 513px;
+    position: relative;
+}
+.big-ellipse .ellipse{
+    position: absolute;
+    width: 513px;
+    height: 513px;
+    margin-top: 0;
+    background: #FFB700;
+    border-radius: 50%;
+}
+.big-ellipse .points{
+    position: absolute;
+    margin-top: 153px;
+    margin-left: 8px;
+    z-index: 1;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow-x:hidden;
+}
+header{
+    width: 1920px;
+    max-width: 1920px;
+
+    height: 851px;
+    background-size: 100%;
+    background: url("img/background.svg") no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+.head{
+    display: flex;
+}
+.head h1{
+    font-family: Nunito, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 46px;
+    letter-spacing: 0.08em;
+    color: #000000;
+    margin-right: 568px;
+    margin-left: 100px;
+}
+.head ul{
+    display: flex;
+}
+.head li{
+    font-family: Nunito, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    display: inline;
+    margin-right: 54px;
+}
+.logo{
+    height: 289px;
+    width: 1555px;
+    margin-top: 203px;
+}
+.logo .square{
+    background: #FFB700;
+    background-size: 100%;
+    width: 951px;
+    height: 215px;
+    position: absolute;
+    z-index: -1;
+    margin-top: 30px;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+.logo .title{
+    width: 1176px;
+    height: 289px;
+    position: relative;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+.logo .title img{
+    z-index: 1;
+    margin-left: 379px;
+
+    width: 1176px;
+    height: 279px;
+    position: absolute;
+
+}
+.logo .title p {
+    z-index: 2;
+    margin-left: 956px;
+    margin-top: 250px;
+    position: absolute;
+    white-space: nowrap;
+    font-family: Nunito, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+
+}
+.info-btn{
+    margin-top: 260px;
+    display: flex;
+}
+.info-btn h1{
+    margin-top: 5px;
+    width: 233px;
+    height: 68px;
+    margin-left: 100px;
+    font-family: Nunito, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 68px;
+    letter-spacing: 0.08em;
+}
+.info-btn .points{
+    margin-left: 744px;
+    margin-right: 212px;
+}
+.info-btn a {
+    margin-top: 4px;
+    margin-right: 100px;
+    width: 268px;
+    height: 69px;
+    position: relative;
+}
+.info-btn .yellow{
+    width: 260px;
+    height: 64px;
+    border: 3px solid #FFB700;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 8px;
+    display: flex;
+
+    z-index: 0;
+}
+.info-btn .black{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 260px;
+    height: 64px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    position: absolute;
+
+    z-index: 1;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.info-btn .black .image{
+    width: 37.85px;
+    height: 37.54px;
+    margin-left: 15px;
+    margin-right: 36px;
+    background: url("img/dino.svg") no-repeat;
+    background-size: 100%;
+}
+.info-btn .black p{
+    margin-right: 62px;
+    font-family: Open Sans, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+.info-btn a:hover{
+
+}
+.info-btn a:hover .black{
+    margin-top: 0;
+    margin-right: 0;
+}
+.info-btn a:hover .yellow{
+    margin-left: 0;
+}
+.info-btn a:active .black{
+    border: 3px solid #FFB700;
+}
+
+.format .info{
+}
+.question-table{
+    margin-left: 100px;
+    margin-top: 80px;
+    position: relative;
+    height: 191.59px;
+    width: 343.61px;
+    background: url("img/question-table.svg") no-repeat;
+}
+
+.question-table h1{
+    margin-top: 80px;
+}
+
+
